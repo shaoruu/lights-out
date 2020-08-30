@@ -36,15 +36,6 @@ function App() {
     // 0,
     // 0,
     // 0
-    // 0,
-    // 0,
-    // 1,
-    // 2,
-    // 2,
-    // 1,
-    // 0,
-    // 1,
-    // 2
     Math.floor(Math.random() * modulus),
     Math.floor(Math.random() * modulus),
     Math.floor(Math.random() * modulus),
@@ -252,9 +243,23 @@ function App() {
         <span className="run-again" onClick={() => setRestart(false)}>
           run again?
         </span>
+        {restart && (
+          <>
+            <span className="spacer">•</span>
+            <span
+              className="run-again"
+              onClick={() => {
+                setRestart(false)
+                setState(() => [0, 0, 1, 2, 2, 1, 0, 1, 2])
+              }}
+            >
+              default
+            </span>
+          </>
+        )}
         <br />
         Answer:
-        <span>{answer.map((a) => a / 2)}</span>
+        <span className="answer">{answer.map((a) => a / 2)}</span>
       </footer>
     </div>
   )

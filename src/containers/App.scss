@@ -54,7 +54,7 @@ $logoWidth: 100px;
   align-items: center;
 }
 
-.App-footer span {
+.answer {
   margin-left: 5px;
 }
 
@@ -65,6 +65,10 @@ $logoWidth: 100px;
 
 .row {
   display: table-row;
+}
+
+.spacer {
+  margin: 0 5px;
 }
 
 .cell {
