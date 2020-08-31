@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1bc1b7aef3f9a6cc24948de2d7cab91f",
+    "revision": "224ce2859feb885b77c1529e27865692",
     "url": "/lights-out/index.html"
   },
   {
-    "revision": "627cbe95fb44223c5ed6",
-    "url": "/lights-out/static/css/main.09ab8196.chunk.css"
+    "revision": "9e55c1813b5c8c121f49",
+    "url": "/lights-out/static/css/main.30741d17.chunk.css"
   },
   {
     "revision": "1b52a572041c34cd0d13",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lights-out/static/js/2.a0276faf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "627cbe95fb44223c5ed6",
-    "url": "/lights-out/static/js/main.84447468.chunk.js"
+    "revision": "9e55c1813b5c8c121f49",
+    "url": "/lights-out/static/js/main.454f08a8.chunk.js"
   },
   {
     "revision": "be864883fe966990f17a",
