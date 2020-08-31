@@ -1,100 +1,100 @@
-$cellWidth: 100px;
+$cellWidth: 12vh;
 $logoWidth: 100px;
 
 .App {
-  text-align: center;
-  background-color: #0a0e11;
-  height: 100vh;
-  overflow: hidden;
+	text-align: center;
+	background-color: #0a0e11;
+	height: 100vh;
+	overflow: hidden;
 }
 
 .App-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 2em;
-  color: white;
-  height: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 2em;
+	color: white;
+	height: 40vh;
 }
 
 .App-logo-container {
-  width: 0;
-  height: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  box-shadow: 0px 0px 20px 20px #ffffff;
-  animation: glow 1s linear infinite alternate;
-  margin: 75px;
+	width: 0;
+	height: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px 20px #ffffff;
+	animation: glow 1s linear infinite alternate;
+	margin: 75px;
 }
 
 .App-logo {
-  width: $logoWidth;
-  height: $logoWidth;
+	width: $logoWidth;
+	height: $logoWidth;
 }
 
 .App-main {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
 }
 
 .App-footer {
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 10px;
-  width: 100%;
-  text-align: center;
-  vertical-align: bottom;
-  color: #eee;
-  justify-content: center;
-  align-items: center;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 10px;
+	width: 100%;
+	text-align: center;
+	vertical-align: bottom;
+	color: #eee;
+	justify-content: center;
+	align-items: center;
 }
 
 .answer {
-  margin-left: 5px;
+	margin-left: 5px;
 }
 
 .game {
-  display: table;
-  border-spacing: 20px;
+	display: table;
+	border-spacing: 20px;
 }
 
 .row {
-  display: table-row;
+	display: table-row;
 }
 
 .spacer {
-  margin: 0 5px;
+	margin: 0 5px;
 }
 
 .cell {
-  width: $cellWidth;
-  height: $cellWidth;
-  background: #eee;
-  border-radius: 10%;
-  display: table-cell;
-  box-shadow: -10px -10px 30px 4px rgba(0, 0, 0, 0.1),
-    10px 10px 30px 4px rgba(45, 78, 255, 0.15);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
+	width: $cellWidth;
+	height: $cellWidth;
+	background: #eee;
+	border-radius: 10%;
+	display: table-cell;
+	box-shadow: -10px -10px 30px 4px rgba(0, 0, 0, 0.1),
+		10px 10px 30px 4px rgba(45, 78, 255, 0.15);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
 }
 
 .cell:hover {
-  color: black !important;
-  transform: translateY(-7px);
+	color: black !important;
+	transform: translateY(-7px);
 }
 
 .run-again {
-  text-decoration: underline;
-  cursor: pointer;
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 @keyframes glow {
-  to {
-    box-shadow: 0px 0px 30px 20px #fff9e8;
-  }
+	to {
+		box-shadow: 0px 0px 30px 20px #fff9e8;
+	}
 }
